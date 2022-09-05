@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] arg) {
+        String a = "333МОН";
+        String b = "666КАР";
+        String c = "999ХРЮ";
+        String substring = "МОН";
+        if (a.contains(substring) == true)
+            System.out.println(a);
+        else if (b.contains(substring) == true)
+            System.out.println(b);
+        else if (c.contains(substring) == true)
+            System.out.println(c);
+        else
+            System.out.println("Номерного знака, содержащего МОН, нет.");
